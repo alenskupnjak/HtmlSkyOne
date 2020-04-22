@@ -49,6 +49,12 @@ img {
   position: fixed;
   top: 0;
   padding: 0 30px;
+  transition: 0.5s;
+}
+
+.navbar.top {
+  background: transparent;
+  /* background: blue; */
 }
 
 .navbar a:hover{
@@ -214,6 +220,28 @@ outline-color:  #28a746 ;
 .callback-form .btn {
   padding: 12px 0;
   margin-top: 1rem;
+}
+
+
+/*Posts */
+.post {
+  padding: 50px 30px;
+}
+
+.post h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: #ccc solid 1px;
+  
+}
+
+.post img  {
+  width: 300px;
+  border-radius: 50%;
+  /* Malo za promjenu , bez flexa*/
+  display: block;
+  margin: 0 auto;
 }
 
 /*Footer*/
